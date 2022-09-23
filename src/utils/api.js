@@ -1,0 +1,1 @@
+const getPosts = () => fetch('https://jsonplaceholder.typicode.com/posts').then((res)=> res.json()).catch((err) => Promise.reject(err))
