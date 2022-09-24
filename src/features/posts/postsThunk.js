@@ -6,7 +6,7 @@ export const fetchPostsThunk = createAsyncThunk('posts/getPosts', async ({ limit
     // you can dispatch any action from here!
     // dispatch(del(2))
     return fetch(
-      `https://jsonplaceholde.typicode.com/posts?_limit=${limit}`
+      `https://jsonplaceholder.typicode.com/posts?_limit=${limit}`
     ).then((res) => res.json())
   }
 )

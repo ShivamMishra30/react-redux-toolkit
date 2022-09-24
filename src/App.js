@@ -20,6 +20,7 @@ import {
   Divider,
 } from 'rsuite'
 import './App.css'
+import Users from './features/users/Users'
 
 function App() {
   const [todoTxt, setTodoTxt] = useState('')
@@ -67,6 +68,7 @@ function App() {
               <Divider />
               <Todos />
               <Posts/>
+              <Users/>
             </FlexboxGrid.Item>
           </FlexboxGrid>
         </Content>
